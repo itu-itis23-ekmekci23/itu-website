@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "./card";
+import './cardlist.css';
 
 function CardList() {
     return (
-        <div>
+        <div className="cards">
             <Card prop={"Sahibinden"} />
             <Card prop={"Süreli ilanlar"} />
             <Card prop={"Ürün kiralama"} />
@@ -13,4 +14,4 @@ function CardList() {
     )
 }
 
-export default CardList
+export default CardList;

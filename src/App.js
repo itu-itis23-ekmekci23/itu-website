@@ -6,7 +6,6 @@ import Feedback from './feedback';
 function AppMain() {
   return (
     <div className="AppMain">
-      <p>Hello There.</p>
       <Navbar />
       <CardList />
       <Feedback />

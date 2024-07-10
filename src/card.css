@@ -1,0 +1,8 @@
+.card {
+    background-color: grey;
+    display: flexbox;
+    border: 3px solid blue;
+    padding: 15px;
+    margin: 20px;
+    width: fit-content;
+}
