@@ -5,11 +5,11 @@ import './cardlist.css';
 function CardList() {
     return (
         <div className="cards">
-            <Card prop={"Sahibinden"} />
-            <Card prop={"Süreli ilanlar"} />
-            <Card prop={"Ürün kiralama"} />
-            <Card prop={"Ders yardımcısı"} />
-            <Card prop={"Harf notu hesaplama"} />
+            <Card prop={"sahibinden"} />
+            <Card prop={"sureli-ilanlar"} />
+            <Card prop={"urun-kiralama"} />
+            <Card prop={"ders-yardimcisi"} />
+            <Card prop={"harf-notu-hesaplama"} />
         </div>
     )
 }
