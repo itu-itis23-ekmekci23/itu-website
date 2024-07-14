@@ -4,7 +4,7 @@ import './cardlist.css';
 
 function CardList() {
     return (
-        <div className="cards">
+        <div className="container">
             <Card prop={"sahibinden"} />
             <Card prop={"sureli-ilanlar"} />
             <Card prop={"urun-kiralama"} />
