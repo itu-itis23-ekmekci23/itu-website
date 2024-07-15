@@ -1,6 +1,11 @@
 .container {
+    margin: auto;
+    margin-top: 90px;
     background-color: red;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
+    width: 80%;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }

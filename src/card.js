@@ -1,14 +1,19 @@
 import React from "react";
 import './card.css';
 
-function Card({ prop }) {
+function Card({ name, linkname, explanation }) {
     return (
-        <div className="card">
-            <div className="image">
-                <img src={`https://raw.githubusercontent.com/omerfarukekmekci/itu-website/master/public/logos/${prop}.png`} alt={`${prop} logo`} />
+        <div className="card br4" >
+            <div id="imagediv" className="image">
+                <a href="https://www.google.com">
+                    <img className="br4" src={`https://raw.githubusercontent.com/omerfarukekmekci/itu-website/master/public/logos/${linkname}.png`} alt={`${name} logo`} />
+                </a>
             </div>
             <div className="text">
-                <p>Bu Card olacak. ({prop})</p>
+                <a href="https://www.google.com">
+                    <p id="cardname" className="cardtext">{name}</p>
+                    <p id="cardexpl" className="cardtext">{explanation}</p>
+                </a>
             </div>
         </div>
     )
