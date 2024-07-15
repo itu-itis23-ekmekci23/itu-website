@@ -5,11 +5,7 @@
     justify-content: flex-start;
 }
 
-#nv1,
-#nv2,
-#nv3,
-#nv4,
-#nv5 {
+.anchor {
     margin: 20px;
     color: white;
     text-decoration: none;
@@ -17,11 +13,7 @@
     display: flexbox;
 }
 
-#nv1:hover,
-#nv2:hover,
-#nv3:hover,
-#nv4:hover,
-#nv5:hover {
+.anchor:hover {
     color: yellow;
 }
 

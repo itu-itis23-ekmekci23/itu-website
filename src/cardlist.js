@@ -11,6 +11,11 @@ function CardList() {
                 explanation={"Buzdolabı mı satıyorsunuz?"}
             />
             <Card
+                name={"İş ilanları"}
+                linkname={"is-ilanlari"}
+                explanation={"Günlük iş arıyorsanız doğru yerdesiniz."}
+            />
+            <Card
                 name={"Süreli İlanlar"}
                 linkname={"sureli-ilanlar"}
                 explanation={"Süreli ilanlar verip okeye 4. bulabilirsiniz."}
