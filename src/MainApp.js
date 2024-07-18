@@ -1,4 +1,4 @@
-import './App.css';
+import './AppMain.css';
 import Navbar from './navbar';
 import CardList from './cardlist';
 import Feedback from './feedback';
